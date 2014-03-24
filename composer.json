@@ -1,0 +1,17 @@
+{
+    "name": "nkt/doctrine-columns",
+    "license": "MIT",
+    "author": {
+        "name": "Gusakov Nikita",
+        "email": "dev@nkt.me"
+    },
+    "require": {
+        "php": ">=5.4",
+        "doctrine/orm": ">=2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nkt\\Column\\": "src"
+        }
+    }
+}
