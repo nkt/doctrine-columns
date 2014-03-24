@@ -1,6 +1,8 @@
 {
     "name": "nkt/doctrine-columns",
     "license": "MIT",
+    "description": "Code entities fast",
+    "keywords": ["trait", "schema", "entity", "doctrine", "sql", "copy-paste"],
     "author": {
         "name": "Gusakov Nikita",
         "email": "dev@nkt.me"
@@ -12,6 +14,12 @@
     "autoload": {
         "psr-4": {
             "Nkt\\Column\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
     }
 }
