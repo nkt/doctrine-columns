@@ -12,7 +12,7 @@ trait Date
 {
     /**
      * @var \DateTime
-     * @ORM\Column(name="date", type="date")
+     * @ORM\Column(name="date", type="date", nullable=true)
      */
     protected $date;
 
@@ -21,7 +21,7 @@ trait Date
      *
      * @return static
      */
-    public function setDate(\DateTime $date)
+    public function setDate(\DateTime $date = null)
     {
         $this->date = $date;
 
