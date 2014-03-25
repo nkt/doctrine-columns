@@ -37,7 +37,7 @@ class Book
 How I can help?
 ---------------
 
-Add your popular column and get rid of copy-paste
+Add your popular column and get rid of copy-paste!
 
 License
 -------
